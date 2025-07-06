@@ -13,22 +13,22 @@ cask "gdshader-language-server" do
   on_macos do
     on_intel do
       url "https://github.com/armsnyder/gdshader-language-server/releases/download/v0.6.0/gdshader-language-server_Darwin_x86_64.tar.gz"
-      sha256 "635b47ce6973ee12016ac44206064783de96894196e0b171dd7c3319e4f4a4ac"
+      sha256 "a831fe5240b18ecbb2c481edce4114592d6c5a410e85df6f41646b31ab7c164e"
     end
     on_arm do
       url "https://github.com/armsnyder/gdshader-language-server/releases/download/v0.6.0/gdshader-language-server_Darwin_arm64.tar.gz"
-      sha256 "02186949a1bea3e84cc7a49418b320a1b88fc409a87302ea1f204821cb636683"
+      sha256 "a9bdeeb740b6000f90b2616d548ee2fbc8e56cefc47200f1f7874df9fe1d297b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/armsnyder/gdshader-language-server/releases/download/v0.6.0/gdshader-language-server_Linux_x86_64.tar.gz"
-      sha256 "f708c2568ab1e1a4d3158156eb52d7febea4a5fd6b62a6d278faecb4b29a3eb6"
+      sha256 "c3cc7da369dcc86e11d221862735678f449c8260ace0ca527fb95a8526571f3e"
     end
     on_arm do
       url "https://github.com/armsnyder/gdshader-language-server/releases/download/v0.6.0/gdshader-language-server_Linux_arm64.tar.gz"
-      sha256 "1ea7184c3c5070115bb9797608e63f482daf4e65fac21d0cdf0017316468dab0"
+      sha256 "4113ff55b0abec621f5041c89c17186d9049419fb36c2c1235baad18c274c0f8"
     end
   end
 
